@@ -241,4 +241,4 @@ if __name__ == '__main__':
     etl = gsc_etl(website,credentials, pickled_file_folder, start_date,end_date, project_id, url_destination_table, keyword_destination_table)
 
     etl.gbq_etl()
-    print("Scipt Complete")
+    print("Script Complete")
