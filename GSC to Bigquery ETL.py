@@ -6,6 +6,8 @@ from datetime import datetime, timedelta
 from google_auth_oauthlib.flow import InstalledAppFlow
 from apiclient.discovery import build
 
+#### credit to June Tao Ching for original gsc code - 
+
 class gsc_etl:
 
     def __init__(self,website,credentials, pickled_file_folder, start_date,end_date, gbq_project):
